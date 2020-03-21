@@ -2,9 +2,16 @@ date_start;date_end;region;intervention;intervention_cat;source
 2020-03-20;;Italy;Schließung öffentlicher Parks, Spielplätze, öffentliche Gärten. ;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
 2020-03-20;;Italy;Verbot von Freizeitaktivität im Freien;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
 2020-03-20;;Italy;Schließung von Lebensmittel- und Getränkeverkaufsstellen innerhalb von Bahnhöfen und Seebahnhöfen, Tankstellen;Schließung von Ladengeschäften;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;;;
-2020-03-20;;Italy;;;
+2020-01-31;;Italy;Aussetzen aller Flüge nach/von China inkl. Hong Kong, Macao, Taipe;Mobilitätseinschränkung-Luft;https://www.enac.gov.it/news/coronavirus-sospesi-tutti-collegamenti-aerei-tra-italia-cina-courtesy-translation-available
+2020-02-23;;Italy_regional;Abriegelung der betroffenen Kommunen;Grenzschließungen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Ausgangssperren für nicht essentielle Bedürfnisse;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Schließung der Schulen und Streichen der Schulausflüge;Schließung von Schulen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Absagen von Veranstaltungen jeder Größe im öffentlichen und privaten Bereich;Absagen von Veranstaltungen jeder Größe;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Schließung der Kitas;Schließung der Kitas;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;2020-03-01;Italy_regional;Schließung von Museen und anderen Kulturstätten;Schließung von öffentlichen/kulturellen Orten;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Aussetzen des öffentlichen Behördenverkehrsin nicht essentiellen Behörden;Aussetzen des öffentlichen Behördenverkehrs;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Kontaktpersonen von nachgewiesenen Fällen und Rückkehrende aus Risikogebieten werden unter Quarantäne gestellt;Infiziertenüberwachung;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-02-23;;Italy_regional;Aussetzen bestimmter Arbeiten/Firmen/Gewerbe;Schließung von Ladengeschäften;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-02-23;;Italy_regional;Beschränkung des öffentlichen Transports von Gütern und Personen;Mobilitätseinschränkung-Land;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Schließung von Schulen im ganzen Land;Schließung von Schulen;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Schließung von Universitäten im ganzen Land;Schließung von Universitäten;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
