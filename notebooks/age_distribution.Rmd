@@ -29,16 +29,18 @@ age.distribution <- data %>%
 
 ```{r fig.height=10, fig.width=20}
 age.distribution %>% 
+  mutate(PctFall=PctFall*100) %>% 
   ggplot(aes(x=Altersgruppe, y=PctFall)) +
   geom_bar(stat = "identity") +
-  labs(title = "Age distribtution covid-19 confirmed cases")
+  labs(title = "Age distribtution covid-19 confirmed cases in Germany", y="Percentage")
 ```
 
 
 
 ```{r fig.height=10, fig.width=20}
 age.distribution %>% 
+  mutate(PctTodesfall=PctTodesfall*100) %>% 
   ggplot(aes(x=Altersgruppe, y=PctTodesfall)) +
   geom_bar(stat = "identity") +
-  labs(title = "Age distribtution covid-19 deaths")
+  labs(title = "Age distribtution covid-19 deaths in Germany", y="Percentage")
 ```
