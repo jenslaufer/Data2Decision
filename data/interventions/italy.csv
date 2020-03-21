@@ -1,10 +1,10 @@
-date;region;intervention;intervention_cat;source
-2020-03-20;Italy;Schließung öffentlicher Parks, Spielplätze, öffentliche Gärten. ;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;Verbot von Freizeitaktivität im Freien;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;Schließung von Lebensmittel- und Getränkeverkaufsstellen innerhalb von Bahnhöfen und Seebahnhöfen, Tankstellen;Schließung von Ladengeschäften;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;Italy;;;
-2020-03-20;Italy;;;
+date_start;date_end;region;intervention;intervention_cat;source
+2020-03-20;;Italy;Schließung öffentlicher Parks, Spielplätze, öffentliche Gärten. ;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;Verbot von Freizeitaktivität im Freien;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;Schließung von Lebensmittel- und Getränkeverkaufsstellen innerhalb von Bahnhöfen und Seebahnhöfen, Tankstellen;Schließung von Ladengeschäften;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;;;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;;;
+2020-03-20;;Italy;;;
