@@ -1,0 +1,44 @@
+---
+title: "Age Distribution Germany"
+author: "Jens Laufer"
+date: "21 3 2020"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message =F, warning=F)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data <- read_csv("../data/CoV_data/RKI_COVID19.csv")
+```
+
+```{r}
+age.distribution <- data %>% 
+  group_by(Altersgruppe) %>% 
+  summarise(AnzahlFall=sum(AnzahlFall), AnzahlTodesfall=sum(AnzahlTodesfall)) %>% 
+  mutate(TotalFall=sum(AnzahlFall), TotalTodesfall=sum(AnzahlTodesfall)) %>% 
+  mutate(PctFall=AnzahlFall/TotalFall, PctTodesfall=AnzahlTodesfall/TotalTodesfall) %>% 
+  ungroup()
+```
+
+
+```{r fig.height=10, fig.width=20}
+age.distribution %>% 
+  ggplot(aes(x=Altersgruppe, y=PctFall)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Age distribtution covid-19 confirmed cases")
+```
+
+
+
+```{r fig.height=10, fig.width=20}
+age.distribution %>% 
+  ggplot(aes(x=Altersgruppe, y=PctTodesfall)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Age distribtution covid-19 deaths")
+```
