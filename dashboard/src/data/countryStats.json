@@ -1,0 +1,1325 @@
+[
+  {
+    "name": "Switzerland",
+    "populationServed": 8600000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 30799,
+    "ICUBeds": 1400,
+    "suspectedCaseMarch1st": 540,
+    "importsPerDay": 4
+  },
+  {
+    "name": "Germany",
+    "populationServed": 83784000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 500680,
+    "ICUBeds": 23890,
+    "suspectedCaseMarch1st": 1710,
+    "importsPerDay": 12.2
+  },
+  {
+    "name": "France",
+    "populationServed": 65274000,
+    "ageDistribution": "France",
+    "hospitalBeds": 274462,
+    "ICUBeds": 7540,
+    "suspectedCaseMarch1st": 3000,
+    "importsPerDay": 19.9
+  },
+  {
+    "name": "Italy",
+    "populationServed": 60462000,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 165384,
+    "ICUBeds": 7550,
+    "suspectedCaseMarch1st": 225600,
+    "importsPerDay": 10
+  },
+  {
+    "name": "Spain",
+    "populationServed": 46755000,
+    "ageDistribution": "Spain",
+    "hospitalBeds": 110346,
+    "ICUBeds": 4479,
+    "suspectedCaseMarch1st": 4500,
+    "importsPerDay": 27
+  },
+  {
+    "name": "Poland",
+    "populationServed": 37847000,
+    "ageDistribution": "Poland",
+    "hospitalBeds": 188342,
+    "ICUBeds": 2635,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.3
+  },
+  {
+    "name": "Romania",
+    "populationServed": 19238000,
+    "ageDistribution": "Romania",
+    "hospitalBeds": 90024,
+    "ICUBeds": 4574,
+    "suspectedCaseMarch1st": 150,
+    "importsPerDay": 0.7
+  },
+  {
+    "name": "Netherlands",
+    "populationServed": 17135000,
+    "ageDistribution": "Netherlands",
+    "hospitalBeds": 55690,
+    "ICUBeds": 1065,
+    "suspectedCaseMarch1st": 210,
+    "importsPerDay": 0.9
+  },
+  {
+    "name": "Belgium",
+    "populationServed": 11590000,
+    "ageDistribution": "Belgium",
+    "hospitalBeds": 63692,
+    "ICUBeds": 1755,
+    "suspectedCaseMarch1st": 30,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Czechia",
+    "populationServed": 10709000,
+    "ageDistribution": "Czechia",
+    "hospitalBeds": 92633,
+    "ICUBeds": 1242,
+    "suspectedCaseMarch1st": 150,
+    "importsPerDay": 0.6
+  },
+  {
+    "name": "Greece",
+    "populationServed": 10423000,
+    "ageDistribution": "Greece",
+    "hospitalBeds": 38090,
+    "ICUBeds": 680,
+    "suspectedCaseMarch1st": 150,
+    "importsPerDay": 0.6
+  },
+  {
+    "name": "Portugal",
+    "populationServed": 10197000,
+    "ageDistribution": "Portugal",
+    "hospitalBeds": 33821,
+    "ICUBeds": 451,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.4
+  },
+  {
+    "name": "Sweden",
+    "populationServed": 10099000,
+    "ageDistribution": "Sweden",
+    "hospitalBeds": 22754,
+    "ICUBeds": 550,
+    "suspectedCaseMarch1st": 390,
+    "importsPerDay": 1.5
+  },
+  {
+    "name": "Hungary",
+    "populationServed": 9660000,
+    "ageDistribution": "Hungary",
+    "hospitalBeds": 42413,
+    "ICUBeds": 1374,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.4
+  },
+  {
+    "name": "Austria",
+    "populationServed": 9006000,
+    "ageDistribution": "Austria",
+    "hospitalBeds": 49395,
+    "ICUBeds": 1833,
+    "suspectedCaseMarch1st": 500,
+    "importsPerDay": 1.8
+  },
+  {
+    "name": "Bulgaria",
+    "populationServed": 6948000,
+    "ageDistribution": "Bulgaria",
+    "hospitalBeds": 42851,
+    "ICUBeds": 913,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.3
+  },
+  {
+    "name": "Denmark",
+    "populationServed": 5792000,
+    "ageDistribution": "Denmark",
+    "hospitalBeds": 13962,
+    "ICUBeds": 372,
+    "suspectedCaseMarch1st": 90,
+    "importsPerDay": 0.3
+  },
+  {
+    "name": "Finland",
+    "populationServed": 5541000,
+    "ageDistribution": "Finland",
+    "hospitalBeds": 16852,
+    "ICUBeds": 329,
+    "suspectedCaseMarch1st": 60,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "Slovakia",
+    "populationServed": 5460000,
+    "ageDistribution": "Slovakia",
+    "hospitalBeds": 26642,
+    "ICUBeds": 500,
+    "suspectedCaseMarch1st": 30,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Ireland",
+    "populationServed": 4938000,
+    "ageDistribution": "Ireland",
+    "hospitalBeds": 11241,
+    "ICUBeds": 289,
+    "suspectedCaseMarch1st": 30,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Croatia",
+    "populationServed": 4105000,
+    "ageDistribution": "Croatia",
+    "hospitalBeds": 16974,
+    "ICUBeds": 650,
+    "suspectedCaseMarch1st": 350,
+    "importsPerDay": 1
+  },
+  {
+    "name": "Lithuania",
+    "populationServed": 2722000,
+    "ageDistribution": "Lithuania",
+    "hospitalBeds": 18504,
+    "ICUBeds": 502,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Slovenia",
+    "populationServed": 2079000,
+    "ageDistribution": "Slovenia",
+    "hospitalBeds": 8740,
+    "ICUBeds": 131,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Latvia",
+    "populationServed": 1886000,
+    "ageDistribution": "Latvia",
+    "hospitalBeds": 6748,
+    "ICUBeds": 217,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Estonia",
+    "populationServed": 1327000,
+    "ageDistribution": "Estonia",
+    "hospitalBeds": 4824,
+    "ICUBeds": 196,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Cyprus",
+    "populationServed": 1207000,
+    "ageDistribution": "Cyprus",
+    "hospitalBeds": 2912,
+    "ICUBeds": 92,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "Luxembourg",
+    "populationServed": 626000,
+    "ageDistribution": "Luxembourg",
+    "hospitalBeds": 2332,
+    "ICUBeds": 127,
+    "suspectedCaseMarch1st": 30,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Malta",
+    "populationServed": 442000,
+    "ageDistribution": "Malta",
+    "hospitalBeds": 1400,
+    "ICUBeds": 66,
+    "suspectedCaseMarch1st": 90,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "Canada",
+    "populationServed": 37600000,
+    "ageDistribution": "Canada",
+    "hospitalBeds": 73000,
+    "ICUBeds": 4800,
+    "suspectedCaseMarch1st": 191,
+    "importsPerDay": 4
+  },
+  {
+    "name": "United Kingdom",
+    "populationServed": 66000000,
+    "ageDistribution": "United Kingdom of Great Britain and Northern Ireland",
+    "hospitalBeds": 297000,
+    "ICUBeds": 9900,
+    "suspectedCaseMarch1st": 690,
+    "importsPerDay": 4.6
+  },
+  {
+    "name": "United States of America",
+    "populationServed": 330000000,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 1485000,
+    "ICUBeds": 49499,
+    "suspectedCaseMarch1st": 6200,
+    "importsPerDay": 20
+  },
+  {
+    "name": "CHE-Zürich",
+    "populationServed": 1521000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 5447,
+    "ICUBeds": 247,
+    "suspectedCaseMarch1st": 95,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "CHE-Bern",
+    "populationServed": 1035000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 3706,
+    "ICUBeds": 168,
+    "suspectedCaseMarch1st": 64,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Luzern",
+    "populationServed": 410000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1468,
+    "ICUBeds": 66,
+    "suspectedCaseMarch1st": 25,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Uri",
+    "populationServed": 36000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 128,
+    "ICUBeds": 5,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Schwyz",
+    "populationServed": 159000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 569,
+    "ICUBeds": 25,
+    "suspectedCaseMarch1st": 9,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Obwalden",
+    "populationServed": 38000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 136,
+    "ICUBeds": 6,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Nidwalden",
+    "populationServed": 43000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 153,
+    "ICUBeds": 7,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Glarus",
+    "populationServed": 40000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 143,
+    "ICUBeds": 6,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Zug",
+    "populationServed": 127000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 454,
+    "ICUBeds": 20,
+    "suspectedCaseMarch1st": 7,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Freiburg",
+    "populationServed": 319000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1142,
+    "ICUBeds": 51,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Solothurn",
+    "populationServed": 273000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 977,
+    "ICUBeds": 44,
+    "suspectedCaseMarch1st": 17,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Basel-Stadt",
+    "populationServed": 195000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 698,
+    "ICUBeds": 80,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Basel-Landschaft",
+    "populationServed": 288000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1031,
+    "ICUBeds": 46,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Schaffhausen",
+    "populationServed": 82000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 293,
+    "ICUBeds": 13,
+    "suspectedCaseMarch1st": 5,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Appenzell Ausserrhoden",
+    "populationServed": 55000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 196,
+    "ICUBeds": 8,
+    "suspectedCaseMarch1st": 3,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Appenzell Innerrhoden",
+    "populationServed": 16000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 57,
+    "ICUBeds": 2,
+    "suspectedCaseMarch1st": 1,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-St. Gallen",
+    "populationServed": 508000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1819,
+    "ICUBeds": 82,
+    "suspectedCaseMarch1st": 31,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Graubünden",
+    "populationServed": 198000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 709,
+    "ICUBeds": 32,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Aargau",
+    "populationServed": 677000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 2424,
+    "ICUBeds": 110,
+    "suspectedCaseMarch1st": 42,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Thurgau",
+    "populationServed": 276000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 988,
+    "ICUBeds": 44,
+    "suspectedCaseMarch1st": 17,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Ticino",
+    "populationServed": 353000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1264,
+    "ICUBeds": 57,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Vaud",
+    "populationServed": 799000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 2861,
+    "ICUBeds": 130,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Valais",
+    "populationServed": 344000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1231,
+    "ICUBeds": 56,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Neuchâtel",
+    "populationServed": 177000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 633,
+    "ICUBeds": 28,
+    "suspectedCaseMarch1st": 11,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Geneva",
+    "populationServed": 499000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 1787,
+    "ICUBeds": 81,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "CHE-Jura",
+    "populationServed": 73000,
+    "ageDistribution": "Switzerland",
+    "hospitalBeds": 261,
+    "ICUBeds": 11,
+    "suspectedCaseMarch1st": 10,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Baden-Württemberg",
+    "populationServed": 11070000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 66152,
+    "ICUBeds": 3156,
+    "suspectedCaseMarch1st": 225,
+    "importsPerDay": 0.9
+  },
+  {
+    "name": "DEU-Bayern",
+    "populationServed": 13077000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 78146,
+    "ICUBeds": 3728,
+    "suspectedCaseMarch1st": 266,
+    "importsPerDay": 1.1
+  },
+  {
+    "name": "DEU-Berlin",
+    "populationServed": 3645000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 21781,
+    "ICUBeds": 1039,
+    "suspectedCaseMarch1st": 74,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "DEU-Bremen",
+    "populationServed": 683000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 4081,
+    "ICUBeds": 194,
+    "suspectedCaseMarch1st": 13,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Brandenburg",
+    "populationServed": 2512000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 15011,
+    "ICUBeds": 716,
+    "suspectedCaseMarch1st": 51,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Hamburg",
+    "populationServed": 1841000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 11001,
+    "ICUBeds": 524,
+    "suspectedCaseMarch1st": 37,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Hessen",
+    "populationServed": 6266000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 37444,
+    "ICUBeds": 1786,
+    "suspectedCaseMarch1st": 127,
+    "importsPerDay": 0.4
+  },
+  {
+    "name": "DEU-Mecklenburg-Vorpommern",
+    "populationServed": 1610000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 9621,
+    "ICUBeds": 459,
+    "suspectedCaseMarch1st": 32,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Niedersachsen",
+    "populationServed": 7982000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 47699,
+    "ICUBeds": 2275,
+    "suspectedCaseMarch1st": 162,
+    "importsPerDay": 0.6
+  },
+  {
+    "name": "DEU-Nordrhein-Westfalen",
+    "populationServed": 17933000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 107164,
+    "ICUBeds": 5113,
+    "suspectedCaseMarch1st": 366,
+    "importsPerDay": 1.6
+  },
+  {
+    "name": "DEU-Rheinland-Pfalz",
+    "populationServed": 4085000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 24411,
+    "ICUBeds": 1164,
+    "suspectedCaseMarch1st": 83,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "DEU-Saarland",
+    "populationServed": 991000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 5922,
+    "ICUBeds": 282,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Sachsen",
+    "populationServed": 4078000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 24369,
+    "ICUBeds": 1162,
+    "suspectedCaseMarch1st": 83,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "DEU-Sachsen-Anhalt",
+    "populationServed": 2208000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 13194,
+    "ICUBeds": 629,
+    "suspectedCaseMarch1st": 45,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "DEU-Schleswig-Holstein",
+    "populationServed": 2897000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 17312,
+    "ICUBeds": 826,
+    "suspectedCaseMarch1st": 59,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "DEU-Thüringen",
+    "populationServed": 2143000,
+    "ageDistribution": "Germany",
+    "hospitalBeds": 12806,
+    "ICUBeds": 611,
+    "suspectedCaseMarch1st": 43,
+    "importsPerDay": 0.1
+  },
+  {
+    "name": "SWE-Stockholm",
+    "populationServed": 2000000,
+    "ageDistribution": "Sweden",
+    "hospitalBeds": 4506,
+    "ICUBeds": 108,
+    "suspectedCaseMarch1st": 77,
+    "importsPerDay": 0.2
+  },
+  {
+    "name": "ITA-Piemonte",
+    "populationServed": 4356406,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 14826,
+    "ICUBeds": 320,
+    "suspectedCaseMarch1st": 490,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Valle d’Aosta",
+    "populationServed": 125666,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 449,
+    "ICUBeds": 0,
+    "suspectedCaseMarch1st": 10,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Lombardia",
+    "populationServed": 10060574,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 34473,
+    "ICUBeds": 1067,
+    "suspectedCaseMarch1st": 20000,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-TrentinoAltoAdige",
+    "populationServed": 1072276,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 3763,
+    "ICUBeds": 75,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Veneto",
+    "populationServed": 4905854,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 15857,
+    "ICUBeds": 825,
+    "suspectedCaseMarch1st": 3000,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Friuli Venezia Giulia",
+    "populationServed": 1215220,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 3899,
+    "ICUBeds": 825,
+    "suspectedCaseMarch1st": 600,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Liguria",
+    "populationServed": 1550640,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 5085,
+    "ICUBeds": 75,
+    "suspectedCaseMarch1st": 2500,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Emilia Romagna",
+    "populationServed": 4459477,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 16304,
+    "ICUBeds": 650,
+    "suspectedCaseMarch1st": 15000,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Toscana",
+    "populationServed": 3729641,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 10366,
+    "ICUBeds": 447,
+    "suspectedCaseMarch1st": 200,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Umbria",
+    "populationServed": 882015,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 2652,
+    "ICUBeds": 69,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Marche",
+    "populationServed": 1525271,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 4698,
+    "ICUBeds": 400,
+    "suspectedCaseMarch1st": 700,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Lazio",
+    "populationServed": 5879082,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 18887,
+    "ICUBeds": 540,
+    "suspectedCaseMarch1st": 300,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Abruzzo",
+    "populationServed": 1311580,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 3872,
+    "ICUBeds": 70,
+    "suspectedCaseMarch1st": 200,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Molise",
+    "populationServed": 305617,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 1029,
+    "ICUBeds": 30,
+    "suspectedCaseMarch1st": 10,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Campania",
+    "populationServed": 5801692,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 14779,
+    "ICUBeds": 320,
+    "suspectedCaseMarch1st": 1000,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Puglia",
+    "populationServed": 4029053,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 11306,
+    "ICUBeds": 300,
+    "suspectedCaseMarch1st": 200,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Basilicata",
+    "populationServed": 562869,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 1681,
+    "ICUBeds": 5,
+    "suspectedCaseMarch1st": 10,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Calabria",
+    "populationServed": 1947131,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 4901,
+    "ICUBeds": 107,
+    "suspectedCaseMarch1st": 50,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Sicilia",
+    "populationServed": 4999891,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 13642,
+    "ICUBeds": 441,
+    "suspectedCaseMarch1st": 300,
+    "importsPerDay": 5
+  },
+  {
+    "name": "ITA-Sardegna",
+    "populationServed": 1639591,
+    "ageDistribution": "Italy",
+    "hospitalBeds": 4960,
+    "ICUBeds": 244,
+    "suspectedCaseMarch1st": 10,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Wyoming",
+    "populationServed": 567025,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 1985,
+    "ICUBeds": 66,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Vermont",
+    "populationServed": 628061,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 1319,
+    "ICUBeds": 44,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-District of Columbia",
+    "populationServed": 720687,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3171,
+    "ICUBeds": 106,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Alaska",
+    "populationServed": 734002,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 1615,
+    "ICUBeds": 54,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-North Dakota",
+    "populationServed": 761723,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3275,
+    "ICUBeds": 109,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-South Dakota",
+    "populationServed": 903027,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 4335,
+    "ICUBeds": 145,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Delaware",
+    "populationServed": 982895,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 2162,
+    "ICUBeds": 72,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Rhode Island",
+    "populationServed": 1056161,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 2218,
+    "ICUBeds": 74,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Montana",
+    "populationServed": 1086759,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3586,
+    "ICUBeds": 120,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Maine",
+    "populationServed": 1345790,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3364,
+    "ICUBeds": 112,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-New Hampshire",
+    "populationServed": 1371246,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 2880,
+    "ICUBeds": 96,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Hawaii",
+    "populationServed": 1412687,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 2684,
+    "ICUBeds": 89,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-West Virginia",
+    "populationServed": 1778070,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 6757,
+    "ICUBeds": 225,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Idaho",
+    "populationServed": 1826156,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3470,
+    "ICUBeds": 116,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Nebraska",
+    "populationServed": 1952570,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 7029,
+    "ICUBeds": 234,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-New Mexico",
+    "populationServed": 2096640,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 3774,
+    "ICUBeds": 126,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Kansas",
+    "populationServed": 2910357,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 9604,
+    "ICUBeds": 320,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 1
+  },
+  {
+    "name": "USA-Mississippi",
+    "populationServed": 298926,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 11957,
+    "ICUBeds": 399,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Puerto Rico",
+    "populationServed": 303216,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 6064,
+    "ICUBeds": 202,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Arkansas",
+    "populationServed": 3038999,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 9725,
+    "ICUBeds": 324,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Nevada",
+    "populationServed": 3139658,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 6593,
+    "ICUBeds": 220,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Iowa",
+    "populationServed": 317984,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 9540,
+    "ICUBeds": 318,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Utah",
+    "populationServed": 3282115,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 5908,
+    "ICUBeds": 197,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Connecticut",
+    "populationServed": 356307,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 7126,
+    "ICUBeds": 238,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Oklahoma",
+    "populationServed": 3954821,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 11073,
+    "ICUBeds": 369,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Oregon",
+    "populationServed": 4301089,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 6882,
+    "ICUBeds": 229,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Kentucky",
+    "populationServed": 4499692,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 14399,
+    "ICUBeds": 480,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Louisiana",
+    "populationServed": 4645184,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 15329,
+    "ICUBeds": 511,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Alabama",
+    "populationServed": 4908621,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 15217,
+    "ICUBeds": 507,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-South Carolina",
+    "populationServed": 5210095,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 12504,
+    "ICUBeds": 417,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Minnesota",
+    "populationServed": 5700671,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 14252,
+    "ICUBeds": 475,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Colorado",
+    "populationServed": 5845526,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 11106,
+    "ICUBeds": 370,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Wisconsin",
+    "populationServed": 5851754,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 12289,
+    "ICUBeds": 410,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Maryland",
+    "populationServed": 6083116,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 11558,
+    "ICUBeds": 385,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Missouri",
+    "populationServed": 6169270,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 19125,
+    "ICUBeds": 638,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Indiana",
+    "populationServed": 6745354,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 18212,
+    "ICUBeds": 607,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Tennessee",
+    "populationServed": 6897576,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 20003,
+    "ICUBeds": 667,
+    "suspectedCaseMarch1st": 2,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Massachusetts",
+    "populationServed": 6976597,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 16046,
+    "ICUBeds": 535,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Arizona",
+    "populationServed": 7378494,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 14019,
+    "ICUBeds": 467,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Washington",
+    "populationServed": 7797095,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 13255,
+    "ICUBeds": 442,
+    "suspectedCaseMarch1st": 200,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-Virginia",
+    "populationServed": 8626207,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 18115,
+    "ICUBeds": 604,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 2
+  },
+  {
+    "name": "USA-New Jersey",
+    "populationServed": 8936574,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 21448,
+    "ICUBeds": 715,
+    "suspectedCaseMarch1st": 500,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Michigan",
+    "populationServed": 10045029,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 25113,
+    "ICUBeds": 837,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-North Carolina",
+    "populationServed": 10611862,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 22285,
+    "ICUBeds": 743,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Georgia",
+    "populationServed": 10736059,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 25767,
+    "ICUBeds": 859,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Ohio",
+    "populationServed": 11747694,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 32894,
+    "ICUBeds": 1096,
+    "suspectedCaseMarch1st": 20,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Illinois",
+    "populationServed": 12659682,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 31649,
+    "ICUBeds": 1055,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-Pennsylvania",
+    "populationServed": 12820878,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 37181,
+    "ICUBeds": 1239,
+    "suspectedCaseMarch1st": 100,
+    "importsPerDay": 5
+  },
+  {
+    "name": "USA-New York",
+    "populationServed": 19440469,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 52489,
+    "ICUBeds": 1750,
+    "suspectedCaseMarch1st": 1000,
+    "importsPerDay": 10
+  },
+  {
+    "name": "USA-Florida",
+    "populationServed": 21992985,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 57182,
+    "ICUBeds": 1906,
+    "suspectedCaseMarch1st": 300,
+    "importsPerDay": 10
+  },
+  {
+    "name": "USA-Texas",
+    "populationServed": 29472295,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 67786,
+    "ICUBeds": 2260,
+    "suspectedCaseMarch1st": 200,
+    "importsPerDay": 10
+  },
+  {
+    "name": "USA-California",
+    "populationServed": 39937489,
+    "ageDistribution": "United States of America",
+    "hospitalBeds": 71887,
+    "ICUBeds": 2396,
+    "suspectedCaseMarch1st": 1000,
+    "importsPerDay": 10
+  },
+  {
+    "name": "India",
+    "populationServed": 1380004385,
+    "ageDistribution": "India",
+    "hospitalBeds": 1376013,
+    "ICUBeds": 70000,
+    "suspectedCaseMarch1st": 5,
+    "importsPerDay": 40
+  }
+]
