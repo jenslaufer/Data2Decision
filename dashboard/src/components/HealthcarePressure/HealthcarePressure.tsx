@@ -45,7 +45,7 @@ const HealthcarePressure: FC<Props> = ({
     <div className="flex flex-col">
       <LineChart
         width={730}
-        height={250}
+        height={450}
         data={countryData}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
       >
@@ -56,7 +56,7 @@ const HealthcarePressure: FC<Props> = ({
         <Legend verticalAlign="top" height={36} />
         {COUNTRIES_WITH_PROGNOSIS.indexOf(country) !== -1 ?
           <Line
-            name={"Krankheitsfälle mit Gegenmaßnahmen"}
+            name={`Prognose ${numberOfDeployedStrategies > 0 ? "mit" : "ohne"} Gegenmaßnahmen`}
             type="monotone"
             dataKey={modelDataKey}
             stroke="black"
