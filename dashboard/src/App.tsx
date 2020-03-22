@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, {ChangeEvent, useState} from "react";
 import Header from "./components/Header/Header";
-import FilterBar from "./components/FilterBar/FilterBar";
+import FilterBar, {STATES, StateSelection} from "./components/FilterBar/FilterBar";
 import AgeDistribution from "./components/AgeDistribution/AgeDistribution";
 import TreatmentLocation from "./components/TreatmentLocation/TreatmenLocation";
 import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressure";
@@ -9,11 +9,32 @@ import Link from "./components/Link/Link";
 
 function App() {
   const [activeTab, setActiveTab] = useState("HealthcarePressure");
+  const [stateSelection, setStateSelection] = useState<StateSelection>(STATES[0]);
+  const [startDate, setStartDate] = useState(new Date().toDateString());
+  const [endDate, setEndDate] = useState(new Date().toDateString());
+
+  const handleStateSelectionChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const state: StateSelection = event.target.value as StateSelection;
+    setStateSelection(state);
+  };
+
+  const handleStartDateChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setStartDate(event.target.value);
+  };
+
+  const handleEndDateChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setEndDate(event.target.value);
+  };
+
+  const handleStrategyChange = (strategies: {}) => {
+    console.log(strategies);
+  };
+
   return (
     <div className="container mx-auto">
       <Header />
       <main>
-        <FilterBar />
+        <FilterBar startDate={startDate} endDate={endDate} stateSelection={stateSelection} onStartDateChange={handleStartDateChange} onEndDateChange={handleEndDateChange} onStateSelectionChange={handleStateSelectionChange} onStrategyChange={handleStrategyChange}/>
         <div className="flex">
           <div className="w-1/3 mr-4 border-black border-r-2">People</div>
           <div className="w-2/3">

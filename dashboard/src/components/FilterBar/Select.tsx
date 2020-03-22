@@ -1,22 +1,23 @@
-import React from "react";
+import React, {ChangeEvent} from "react";
 
 interface SelectProps {
   name: string;
   value: string;
-  options: any[];
+  options: readonly string[];
+  onChange: (event: ChangeEvent<HTMLSelectElement>) => void;
 }
 
-function Select({ name, value, options }: SelectProps) {
+function Select({ name, value, options , onChange}: SelectProps) {
   return (
     <div className="relative">
       <select
         name={name}
         value={value}
         className="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        onChange={onChange}
       >
-        <option value=""></option>
         {options.map(option => (
-          <option value={option}>{option}</option>
+          <option value={option} key={option}>{option}</option>
         ))}
       </select>
       <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">

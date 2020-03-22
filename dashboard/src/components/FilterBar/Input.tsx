@@ -1,4 +1,4 @@
-import React from "react";
+import React, {ChangeEvent} from "react";
 
 export enum InputTypeEnum {
   Date = "date",
@@ -10,9 +10,10 @@ interface InputProps {
   name: string;
   value: string;
   placeholder?: string;
+  onChange?: (event: ChangeEvent<HTMLInputElement>) => void
 }
 
-function Input({ type, name, value, placeholder }: InputProps) {
+function Input({ type, name, value, placeholder , onChange}: InputProps) {
   return (
     <input
       value={value}
@@ -20,6 +21,7 @@ function Input({ type, name, value, placeholder }: InputProps) {
       type={type}
       placeholder={placeholder}
       className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+      onChange={onChange}
     />
   );
 }
