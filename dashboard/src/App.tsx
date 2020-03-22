@@ -44,11 +44,11 @@ function App() {
         <FilterBar startDate={startDate} endDate={endDate} countrySelection={stateSelection} onStartDateChange={handleStartDateChange} onEndDateChange={handleEndDateChange} onStateSelectionChange={handleStateSelectionChange} onStrategyChange={handleStrategyChange} strategies={strategies}/>
         <div className="flex">
           <div className="w-1/3 mr-4 border-black border-r-2">
-            <PeopleMeter percentage={0.7} title="Neuinfektionen"/>
-            <PeopleMeter percentage={0.3} title="Schwerer Krankheitsverlauf"/>
-            <PeopleMeter percentage={0.7} title="Milder Krankheitsverlauf"/>
-            <PeopleMeter percentage={0.1} title="Genesung"/>
-            <PeopleMeter percentage={0.1} title="Todesfälle"/>
+            <PeopleMeter percentage={Math.random()} title="Neuinfektionen"/>
+            <PeopleMeter percentage={Math.random()} title="Schwerer Krankheitsverlauf"/>
+            <PeopleMeter percentage={Math.random()} title="Milder Krankheitsverlauf"/>
+            <PeopleMeter percentage={Math.random()} title="Genesung"/>
+            <PeopleMeter percentage={Math.random()} title="Todesfälle"/>
           </div>
           <div className="w-2/3">
             <div className="flex flex-col">
