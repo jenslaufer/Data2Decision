@@ -1,17 +1,25 @@
 date_start;date_end;region;intervention;intervention_cat;source
-2020-03-20;;Italy;Schlieﬂung ˆffentlicher Parks, Spielpl‰tze, ˆffentliche G‰rten. ;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;Verbot von Freizeitaktivit‰t im Freien;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-03-20;;Italy;Schlieﬂung von Lebensmittel- und Getr‰nkeverkaufsstellen innerhalb von Bahnhˆfen und Seebahnhˆfen, Tankstellen;Schlieﬂung von Ladengesch‰ften;http://www.governo.it/it/approfondimento/coronavirus/13968
-2020-01-31;;Italy;Aussetzen aller Fl¸ge nach/von China inkl. Hong Kong, Macao, Taipe;Mobilit‰tseinschr‰nkung-Luft;https://www.enac.gov.it/news/coronavirus-sospesi-tutti-collegamenti-aerei-tra-italia-cina-courtesy-translation-available
-2020-02-23;;Italy_regional;Abriegelung der betroffenen Kommunen;Grenzschlieﬂungen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Ausgangssperren f¸r nicht essentielle Bed¸rfnisse;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Schlieﬂung der Schulen und Streichen der Schulausfl¸ge;Schlieﬂung von Schulen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Absagen von Veranstaltungen jeder Grˆﬂe im ˆffentlichen und privaten Bereich;Absagen von Veranstaltungen jeder Grˆﬂe;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Schlieﬂung der Kitas;Schlieﬂung der Kitas;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;2020-03-01;Italy_regional;Schlieﬂung von Museen und anderen Kulturst‰tten;Schlieﬂung von ˆffentlichen/kulturellen Orten;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Aussetzen des ˆffentlichen Behˆrdenverkehrsin nicht essentiellen Behˆrden;Aussetzen des ˆffentlichen Behˆrdenverkehrs;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
-2020-02-23;;Italy_regional;Kontaktpersonen von nachgewiesenen F‰llen und R¸ckkehrende aus Risikogebieten werden unter Quarant‰ne gestellt;Infizierten¸berwachung;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
-2020-02-23;;Italy_regional;Aussetzen bestimmter Arbeiten/Firmen/Gewerbe;Schlieﬂung von Ladengesch‰ften;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
-2020-02-23;;Italy_regional;Beschr‰nkung des ˆffentlichen Transports von G¸tern und Personen;Mobilit‰tseinschr‰nkung-Land;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
-2020-03-04;;Italy;Schlieﬂung von Schulen im ganzen Land;Schlieﬂung von Schulen;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
-2020-03-04;;Italy;Schlieﬂung von Universit‰ten im ganzen Land;Schlieﬂung von Universit‰ten;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-20;;Italy;Schlie√üung √∂ffentlicher Parks, Spielpl√§tze, √∂ffentliche G√§rten. ;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;Verbot von Freizeitaktivit√§t im Freien;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-03-20;;Italy;Schlie√üung von Lebensmittel- und Getr√§nkeverkaufsstellen innerhalb von Bahnh√∂fen und Seebahnh√∂fen, Tankstellen;Schlie√üung von Ladengesch√§ften;http://www.governo.it/it/approfondimento/coronavirus/13968
+2020-01-31;;Italy;Aussetzen aller Fl√ºge nach/von China inkl. Hong Kong, Macao, Taipe;Mobilit√§tseinschr√§nkung-Luft;https://www.enac.gov.it/news/coronavirus-sospesi-tutti-collegamenti-aerei-tra-italia-cina-courtesy-translation-available
+2020-02-23;;Italy_regional;Abriegelung der betroffenen Kommunen;Grenzschlie√üungen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Ausgangssperren f√ºr nicht essentielle Bed√ºrfnisse;Ausgangssperre;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Schlie√üung der Schulen und Streichen der Schulausfl√ºge;Schlie√üung von Schulen;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Absagen von Veranstaltungen jeder Gr√∂√üe im √∂ffentlichen und privaten Bereich;Absagen von Veranstaltungen jeder Gr√∂√üe;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Schlie√üung der Kitas;Schlie√üung der Kitas;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;2020-03-01;Italy_regional;Schlie√üung von Museen und anderen Kulturst√§tten;Schlie√üung von √∂ffentlichen/kulturellen Orten;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Aussetzen des √∂ffentlichen Beh√∂rdenverkehrsin nicht essentiellen Beh√∂rden;Aussetzen des √∂ffentlichen Beh√∂rdenverkehrs;http://www.governo.it/it/approfondimento/coronavirus-il-decreto-legge-23-febbraio-2020-e-il-dpcm-attuativo/14173#DL6
+2020-02-23;;Italy_regional;Kontaktpersonen von nachgewiesenen F√§llen und R√ºckkehrende aus Risikogebieten werden unter Quarant√§ne gestellt;Infizierten√ºberwachung;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-02-23;;Italy_regional;Aussetzen bestimmter Arbeiten/Firmen/Gewerbe;Schlie√üung von Ladengesch√§ften;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-02-23;;Italy_regional;Beschr√§nkung des √∂ffentlichen Transports von G√ºtern und Personen;Mobilit√§tseinschr√§nkung-Land;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Schlie√üung von Schulen im ganzen Land;Schlie√üung von Schulen;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Schlie√üung von Universit√§ten im ganzen Land;Schlie√üung von Universit√§ten;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Sportveranstaltungen ohne Publikum;Absagen von Gro√üveranstaltungen (>1000 Personen);https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-04;;Italy;Beschr√§nkungen des Besuchs von Hospizen, Notaufnahmen (Begleitung muss drau√üen warten);Besuchsbeschr√§nkungen in medizinischen Einrichtungen;https://de.wikipedia.org/wiki/COVID-19-Pandemie_in_Italien
+2020-03-05;;Italy;Aufstockung der Intensivbetten um 50%;Aufstockung Intensivversorgung;https://www.avvenire.it/attualita/pagine/sanita-e-coronavirus
+2020-03-05;;Italy;Aufstockung der pulmologischen und infektinologischen Kapazit√§ten um 100%;Aufstockung Regelversorgung;https://www.avvenire.it/attualita/pagine/sanita-e-coronavirus
+2020-03-05;;Italy;Umstrukturierungen im Gesundheitssystem und Patiententransport;Aufstockung Regelversorgung;https://www.avvenire.it/attualita/pagine/sanita-e-coronavirus
+2020-03-05;;Italy;Beschleunigte Ausbildung von Fach√§rzten und Pflegepersonal;Aufstockung Regelversorgung;https://www.avvenire.it/attualita/pagine/sanita-e-coronavirus
+2020-03-08;;Italy_regional;Abriegelung der betroffenen Kommunen (Ausweitung zu vorangehender Abriegelung);Grenzschlie√üungen;https://www.spiegel.de/politik/ausland/coronavirus-italiens-regierung-riegelt-gebiete-im-norden-ab-a-86cc1866-f8c0-4529-8ad6-4bfe92b09991
+2020-03-08;;Italy_regional;Schlie√üung von Museen und anderen Kulturst√§tten;;
