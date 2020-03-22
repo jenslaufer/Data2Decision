@@ -7,6 +7,7 @@ import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressu
 import {Countries} from "./types/countries";
 import Strategies from "./types/strategies";
 import PeopleMeter from "./components/PeopleMeter/PeopleMeter";
+import RandomDataDisclaimer from "./components/Disclaimer/RandomData";
 
 function App() {
   const [stateSelection, setStateSelection] = useState<Countries>("Germany");
@@ -49,6 +50,7 @@ function App() {
             <PeopleMeter percentage={Math.random()} title="Milder Krankheitsverlauf"/>
             <PeopleMeter percentage={Math.random()} title="Genesung"/>
             <PeopleMeter percentage={Math.random()} title="Todesfälle"/>
+            <RandomDataDisclaimer/>
           </div>
           <div className="w-2/3">
             <div className="flex flex-col">
@@ -58,8 +60,12 @@ function App() {
               <div className="flex">
                 <div className="mr-2">
                   <AgeDistribution />
+                  <RandomDataDisclaimer/>
                 </div>
-                <TreatmentLocation />
+                <div className="mr-2">
+                  <TreatmentLocation />
+                  <RandomDataDisclaimer/>
+                </div>
               </div>
             </div>
           </div>
