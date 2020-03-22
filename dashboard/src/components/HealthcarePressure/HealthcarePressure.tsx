@@ -9,7 +9,7 @@ import {
   Line
 } from "recharts";
 
-import {Countries} from "../../types/countries";
+import {Countries, COUNTRIES_WITH_PROGNOSIS} from "../../types/countries";
 import prepareDataForCountry from "../helpers/prepareData";
 import Strategies from "../../types/strategies";
 
@@ -55,12 +55,14 @@ const HealthcarePressure: FC<Props> = ({
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
         <Legend verticalAlign="top" height={36} />
-        <Line
-          name={"Entwicklung mit Gegenmaßnahmen"}
-          type="monotone"
-          dataKey={modelDataKey}
-          stroke="black"
-        />
+        {COUNTRIES_WITH_PROGNOSIS.indexOf(country) !== -1 ?
+          <Line
+            name={"Krankheitsfälle mit Gegenmaßnahmen"}
+            type="monotone"
+            dataKey={modelDataKey}
+            stroke="black"
+          />
+          : null }
         <Line
           name={`Bestätigte Fälle in ${country}`}
           type="monotone"

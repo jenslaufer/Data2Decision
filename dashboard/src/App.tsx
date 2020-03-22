@@ -53,7 +53,6 @@ function App() {
               </div>
               <div className="flex flex-col mt-4">
                 {<HealthcarePressure country={stateSelection} strategies={strategies}/>}
-                )}
               </div>
             </div>
           </div>

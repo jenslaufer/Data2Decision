@@ -168,5 +168,9 @@ const COUNTRIES = [
 ] as const;
 type Countries = typeof COUNTRIES[number];
 
+const COUNTRIES_WITH_PROGNOSIS: Countries[] = [
+    "Germany",
+];
+
 // @ts-ignore
-export {COUNTRIES, Countries};
+export {COUNTRIES, COUNTRIES_WITH_PROGNOSIS, Countries};

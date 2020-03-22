@@ -3,7 +3,7 @@ import countryStats from "../../data/countryStats.json";
 import deathsByCountryDate from "../../data/deathsByCountryDate.json";
 import prognosis from "../../data/cumulative_confirmed_cases_measures.json"
 
-import {Countries} from "../../types/countries";
+import {Countries, COUNTRIES_WITH_PROGNOSIS} from "../../types/countries";
 
 const prepareDataForCountry = (country: Countries) => {
     const casesForCountry = casesByCountryDate[country];
@@ -15,23 +15,27 @@ const prepareDataForCountry = (country: Countries) => {
             break;
         }
     }
-    // @ts-ignore
-    const countryData = Object.keys(prognosis.no_measure).reduce((data: {}[], dateTime) => {
+
+    const mapOver = COUNTRIES_WITH_PROGNOSIS.indexOf(country) === -1 ? casesForCountry : prognosis.no_measure;
+    const countryData = Object.keys(mapOver).reduce((data: {}[], dateTime) => {
         // @ts-ignore
         const cases = casesForCountry[dateTime];
         // @ts-ignore
         const deaths = deathsByCountryDate[country][dateTime];
         const dateObject = new Date(Number.parseInt(dateTime));
         const dateString = `${dateObject.getDay()}.${dateObject.getMonth()+1}.${dateObject.getFullYear()}`;
-        data.push({
+        const dataPoint = {
             dateTime: dateString,
             cases: cases,
             deaths: deaths,
             capacity: capacityForCountry,
-            model: {
+            model: {},
+        };
+        if (country === "Germany") {
+            dataPoint.model = {
                 // @ts-ignore
                 noMeasures: prognosis.no_measure[dateTime],
-                measures: {
+                    measures: {
                     // @ts-ignore
                     strength1: prognosis.measure_strength1[dateTime],
                     // @ts-ignore
@@ -41,8 +45,19 @@ const prepareDataForCountry = (country: Countries) => {
                     // @ts-ignore
                     strength4: prognosis.measure_strength4[dateTime],
                 }
-            },
-        });
+            }
+        } else {
+            dataPoint.model = {
+                noMeasures: undefined,
+                    measures: {
+                    strength1: undefined,
+                        strength2: undefined,
+                        strength3: undefined,
+                        strength4: undefined,
+                }
+            }
+        }
+        data.push(dataPoint);
         return data;
     }, []);
 
