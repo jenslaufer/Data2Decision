@@ -1,20 +1,26 @@
 import React, {ChangeEvent, useState} from "react";
 import Header from "./components/Header/Header";
-import FilterBar, {StateSelection} from "./components/FilterBar/FilterBar";
+import FilterBar from "./components/FilterBar/FilterBar";
 import AgeDistribution from "./components/AgeDistribution/AgeDistribution";
 import TreatmentLocation from "./components/TreatmentLocation/TreatmenLocation";
 import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressure";
-import NewInfectionsRecoveries from "./components/NewInfectionsRecoveries/NewInfectionsRecoveries";
-import Link from "./components/Link/Link";
+import {Countries} from "./types/countries";
+import Strategies from "./types/strategies";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("HealthcarePressure");
-  const [stateSelection, setStateSelection] = useState<StateSelection>("Germany");
+  const [stateSelection, setStateSelection] = useState<Countries>("Germany");
   const [startDate, setStartDate] = useState(new Date().toDateString());
   const [endDate, setEndDate] = useState(new Date().toDateString());
+  const [strategies, setStrategies] = useState<Strategies>({
+    socialDistancing: false,
+    regionaleAbgrenzung: false,
+    virusKontrolle: false,
+    foerderungFalldetektion: false,
+    foerderungGesundheitssystem: false,
+  });
 
   const handleStateSelectionChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const state: StateSelection = event.target.value as StateSelection;
+    const state: Countries = event.target.value as Countries;
     setStateSelection(state);
   };
 
@@ -26,15 +32,15 @@ function App() {
     setEndDate(event.target.value);
   };
 
-  const handleStrategyChange = (strategies: {}) => {
-    console.log(strategies);
+  const handleStrategyChange = (strategies: Strategies) => {
+    setStrategies(strategies);
   };
 
   return (
     <div className="container mx-auto">
       <Header />
       <main>
-        <FilterBar startDate={startDate} endDate={endDate} stateSelection={stateSelection} onStartDateChange={handleStartDateChange} onEndDateChange={handleEndDateChange} onStateSelectionChange={handleStateSelectionChange} onStrategyChange={handleStrategyChange}/>
+        <FilterBar startDate={startDate} endDate={endDate} countrySelection={stateSelection} onStartDateChange={handleStartDateChange} onEndDateChange={handleEndDateChange} onStateSelectionChange={handleStateSelectionChange} onStrategyChange={handleStrategyChange} strategies={strategies}/>
         <div className="flex">
           <div className="w-1/3 mr-4 border-black border-r-2">People</div>
           <div className="w-2/3">
@@ -46,24 +52,7 @@ function App() {
                 <TreatmentLocation />
               </div>
               <div className="flex flex-col mt-4">
-                <ul className="flex">
-                  <li className="mr-6">
-                    <Link onClick={() => setActiveTab("HealthcarePressure")}>
-                      Auslastung Gesundheitssystem
-                    </Link>
-                  </li>
-                  <li className="mr-6">
-                    <Link
-                      onClick={() => setActiveTab("NewInfectionsRecoveries")}
-                    >
-                      Neuinfektionen vs. Genesung
-                    </Link>
-                  </li>
-                </ul>
-                {activeTab === "HealthcarePressure" && <HealthcarePressure country={stateSelection} />}
-                {activeTab === "NewInfectionsRecoveries" && (
-                  <NewInfectionsRecoveries />
-                )}
+                {<HealthcarePressure country={stateSelection} strategies={strategies}/>}
               </div>
             </div>
           </div>
