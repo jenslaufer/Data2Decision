@@ -6,6 +6,7 @@ import TreatmentLocation from "./components/TreatmentLocation/TreatmenLocation";
 import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressure";
 import {Countries} from "./types/countries";
 import Strategies from "./types/strategies";
+import PeopleMeter from "./components/PeopleMeter/PeopleMeter";
 
 function App() {
   const [stateSelection, setStateSelection] = useState<Countries>("Germany");
@@ -42,7 +43,9 @@ function App() {
       <main>
         <FilterBar startDate={startDate} endDate={endDate} countrySelection={stateSelection} onStartDateChange={handleStartDateChange} onEndDateChange={handleEndDateChange} onStateSelectionChange={handleStateSelectionChange} onStrategyChange={handleStrategyChange} strategies={strategies}/>
         <div className="flex">
-          <div className="w-1/3 mr-4 border-black border-r-2">People</div>
+          <div className="w-1/3 mr-4 border-black border-r-2">
+            <PeopleMeter/>
+          </div>
           <div className="w-2/3">
             <div className="flex flex-col">
               <div className="flex flex-col mt-4">
