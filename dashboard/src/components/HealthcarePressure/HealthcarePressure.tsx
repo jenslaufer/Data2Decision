@@ -8,14 +8,14 @@ import {
   Legend,
   Line
 } from "recharts";
-import {StateSelection} from "../FilterBar/FilterBar";
 
 import casesByCountryDate from "../../data/casesByCountryDate.json";
 import deathsByCountryDate from "../../data/deathsByCountryDate.json";
 import countryStats from "../../data/countryStats.json";
+import {Countries} from "../../types/countries";
 
 type Props = {
-  country: StateSelection;
+  country: Countries;
 }
 
 const HealthcarePressure: FC<Props> = ({country}) => {

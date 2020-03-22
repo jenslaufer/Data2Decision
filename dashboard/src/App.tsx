@@ -1,20 +1,21 @@
 import React, {ChangeEvent, useState} from "react";
 import Header from "./components/Header/Header";
-import FilterBar, {StateSelection} from "./components/FilterBar/FilterBar";
+import FilterBar from "./components/FilterBar/FilterBar";
 import AgeDistribution from "./components/AgeDistribution/AgeDistribution";
 import TreatmentLocation from "./components/TreatmentLocation/TreatmenLocation";
 import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressure";
 import NewInfectionsRecoveries from "./components/NewInfectionsRecoveries/NewInfectionsRecoveries";
 import Link from "./components/Link/Link";
+import {Countries} from "./types/countries";
 
 function App() {
   const [activeTab, setActiveTab] = useState("HealthcarePressure");
-  const [stateSelection, setStateSelection] = useState<StateSelection>("Germany");
+  const [stateSelection, setStateSelection] = useState<Countries>("Germany");
   const [startDate, setStartDate] = useState(new Date().toDateString());
   const [endDate, setEndDate] = useState(new Date().toDateString());
 
   const handleStateSelectionChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const state: StateSelection = event.target.value as StateSelection;
+    const state: Countries = event.target.value as Countries;
     setStateSelection(state);
   };
 
@@ -62,7 +63,7 @@ function App() {
                 </ul>
                 {activeTab === "HealthcarePressure" && <HealthcarePressure country={stateSelection} />}
                 {activeTab === "NewInfectionsRecoveries" && (
-                  <NewInfectionsRecoveries />
+                  <NewInfectionsRecoveries country={stateSelection} />
                 )}
               </div>
             </div>
