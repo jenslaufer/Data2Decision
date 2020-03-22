@@ -27,8 +27,10 @@ const HealthcarePressure: FC<Props> = ({country}) => {
     const cases = casesForCountry[date];
     // @ts-ignore
     const deaths = deathsByCountryDate[country][date];
+    const dateObject = new Date(Number.parseInt(date));
+    const dateString = `${dateObject.getDay()}.${dateObject.getMonth()}.${dateObject.getFullYear()}`;
     data.push({
-      dateTime: date,
+      dateTime: dateString,
       cases: cases,
       deaths: deaths,
       capacity: capacityForCountry,
