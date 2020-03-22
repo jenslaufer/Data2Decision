@@ -45,14 +45,14 @@ function App() {
           <div className="w-1/3 mr-4 border-black border-r-2">People</div>
           <div className="w-2/3">
             <div className="flex flex-col">
+              <div className="flex flex-col mt-4">
+                {<HealthcarePressure country={stateSelection} strategies={strategies}/>}
+              </div>
               <div className="flex">
                 <div className="mr-2">
                   <AgeDistribution />
                 </div>
                 <TreatmentLocation />
-              </div>
-              <div className="flex flex-col mt-4">
-                {<HealthcarePressure country={stateSelection} strategies={strategies}/>}
               </div>
             </div>
           </div>
