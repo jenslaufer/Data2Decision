@@ -43,7 +43,6 @@ const HealthcarePressure: FC<Props> = ({
 
   return (
     <div className="flex flex-col">
-      {capacityForCountry ? null : "Keine Krankenhauskapazität bekannt."}
       <LineChart
         width={730}
         height={250}
@@ -62,19 +61,23 @@ const HealthcarePressure: FC<Props> = ({
             dataKey={modelDataKey}
             stroke="black"
           />
-          : null }
+          : null
+        }
         <Line
           name={`Bestätigte Fälle in ${country}`}
           type="monotone"
           dataKey="cases"
           stroke="red"
         />
-        <Line
-          name={`Kapazität des Gesundheitssystems in ${country}`}
-          type="monotone"
-          dataKey="capacity"
-          stroke="green"
-        />
+        {capacityForCountry ?
+            <Line
+                name={`Kapazität des Gesundheitssystems in ${country}`}
+                type="monotone"
+                dataKey="capacity"
+                stroke="green"
+            />
+            : null
+        }
       </LineChart>
     </div>
   );
