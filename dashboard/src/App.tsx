@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useState} from "react";
 import Header from "./components/Header/Header";
-import FilterBar, {STATES, StateSelection} from "./components/FilterBar/FilterBar";
+import FilterBar, {COUNTRIES, StateSelection} from "./components/FilterBar/FilterBar";
 import AgeDistribution from "./components/AgeDistribution/AgeDistribution";
 import TreatmentLocation from "./components/TreatmentLocation/TreatmenLocation";
 import HealthcarePressure from "./components/HealthcarePressure/HealthcarePressure";
@@ -9,7 +9,7 @@ import Link from "./components/Link/Link";
 
 function App() {
   const [activeTab, setActiveTab] = useState("HealthcarePressure");
-  const [stateSelection, setStateSelection] = useState<StateSelection>(STATES[0]);
+  const [stateSelection, setStateSelection] = useState<StateSelection>(COUNTRIES[0]);
   const [startDate, setStartDate] = useState(new Date().toDateString());
   const [endDate, setEndDate] = useState(new Date().toDateString());
 
@@ -60,7 +60,7 @@ function App() {
                     </Link>
                   </li>
                 </ul>
-                {activeTab === "HealthcarePressure" && <HealthcarePressure />}
+                {activeTab === "HealthcarePressure" && <HealthcarePressure country={stateSelection} />}
                 {activeTab === "NewInfectionsRecoveries" && (
                   <NewInfectionsRecoveries />
                 )}
