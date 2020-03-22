@@ -20,6 +20,7 @@ type Props = {
 const HealthcarePressure: FC<Props> = ({country}) => {
   // @ts-ignore
   const casesForCountry = casesByCountryDate[country];
+  const capacityForCountry = Math.random() * 10000;
   // @ts-ignore
   const countryData = Object.keys(casesForCountry).reduce((data: {}[], date) => {
     // @ts-ignore
@@ -30,6 +31,7 @@ const HealthcarePressure: FC<Props> = ({country}) => {
       dateTime: date,
       cases: cases,
       deaths: deaths,
+      capacity: capacityForCountry,
     });
     return data;
   }, []);
@@ -47,16 +49,16 @@ const HealthcarePressure: FC<Props> = ({country}) => {
         <Tooltip />
         <Legend verticalAlign="top" height={36} />
         <Line
-          name={`Confirmed cases in ${country}`}
+          name={`Bestätigte Fälle in ${country}`}
           type="monotone"
           dataKey="cases"
-          stroke="#8884d8"
+          stroke="red"
         />
         <Line
-          name={`Death cases in ${country}`}
+          name={`Kapazität des Gesundheitssystems in ${country}`}
           type="monotone"
-          dataKey="deaths"
-          stroke="#82ca9d"
+          dataKey="capacity"
+          stroke="green"
         />
       </LineChart>
     </div>
