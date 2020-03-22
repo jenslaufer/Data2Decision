@@ -8,10 +8,11 @@ import {
   Legend,
   Line
 } from "recharts";
+import {StateSelection} from "../FilterBar/FilterBar";
 
 import casesByCountryDate from "../../data/casesByCountryDate.json";
 import deathsByCountryDate from "../../data/deathsByCountryDate.json";
-import {StateSelection} from "../FilterBar/FilterBar";
+import countryStats from "../../data/countryStats.json";
 
 type Props = {
   country: StateSelection;
@@ -20,7 +21,16 @@ type Props = {
 const HealthcarePressure: FC<Props> = ({country}) => {
   // @ts-ignore
   const casesForCountry = casesByCountryDate[country];
-  const capacityForCountry = Math.random() * 10000;
+  let capacityForCountry: number | undefined = undefined;
+  console.log(countryStats);
+  for (let i = 0; i < countryStats.length; i++) {
+    const countryStatistic = countryStats[i];
+    if (countryStatistic.name === country) {
+      capacityForCountry = countryStatistic.hospitalBeds;
+      break;
+    }
+  }
+  console.log(capacityForCountry);
   // @ts-ignore
   const countryData = Object.keys(casesForCountry).reduce((data: {}[], date) => {
     // @ts-ignore
@@ -39,6 +49,7 @@ const HealthcarePressure: FC<Props> = ({country}) => {
   }, []);
   return (
     <div className="flex flex-col">
+      {capacityForCountry ? null : "Keine Krankenhauskapazität bekannt."}
       <LineChart
         width={730}
         height={250}
