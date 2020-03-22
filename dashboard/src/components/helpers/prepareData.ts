@@ -23,7 +23,7 @@ const prepareDataForCountry = (country: Countries) => {
         // @ts-ignore
         const deaths = deathsByCountryDate[country][dateTime];
         const dateObject = new Date(Number.parseInt(dateTime));
-        const dateString = `${dateObject.getDay()}.${dateObject.getMonth()+1}.${dateObject.getFullYear()}`;
+        const dateString = `${dateObject.getDate()}.${dateObject.getMonth()+1}.${dateObject.getFullYear()}`;
         const dataPoint = {
             dateTime: dateString,
             cases: cases,
