@@ -1,7 +1,7 @@
 import casesByCountryDate from "../../data/casesByCountryDate.json";
 import countryStats from "../../data/countryStats.json";
 import deathsByCountryDate from "../../data/deathsByCountryDate.json";
-import prognosis from "../../data/cumulative_confirmed_cases_measures.json"
+import prognosis from "../../data/cumulative_confirmed_cases_measures_adj.json"
 
 import {Countries, COUNTRIES_WITH_PROGNOSIS} from "../../types/countries";
 
